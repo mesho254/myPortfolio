@@ -57,13 +57,13 @@ const Project = () => {
                             <>
                               {item.liveDeploy && (
                                 <div className="project__item-links-item live">
-                                  <a href="https://yt-playlist-leng.herokuapp.com/" target="_blank" rel="noreferrer">Live Deployment <i className="fas fa-external-link-alt"></i></a>
+                                  <a href={item.liveDeploy} target="_blank" rel="noreferrer">Live Deployment <i className="fas fa-external-link-alt"></i></a>
                                 </div>
                               )}
 
                               {item.sourceCode && (
                                 <div className="project__item-links-item code">
-                                  <a href="https://github.com/ssahibsingh/yt-playlist-length" target="_blank" rel="noreferrer">Source Code <i className="fa-brands fa-github"></i></a>
+                                  <a href={item.sourceCode} target="_blank" rel="noreferrer">Source Code <i className="fa-brands fa-github"></i></a>
                                 </div>
                               )}
                             </>
