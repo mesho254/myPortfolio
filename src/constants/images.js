@@ -1,5 +1,5 @@
 // Profile
-import profile from '../assets/profile.png';
+import profile from '../assets/Profile.jpg';
 
 // About
 import nitj from '../assets/nitj.png';
@@ -19,12 +19,13 @@ import googleForms from '../assets/projects/google-forms.png';
 import portfolioGen from '../assets/projects/portfolio.png';
 
 // Education
-import nitjLogo from '../assets/education/nitj.png';
-import asmLogo from '../assets/education/asm.png';
-import mspLogo from '../assets/education/msp.png';
+import nitjLogo from '../assets/education/KyuLogo.PNG';
+import asmLogo from '../assets/education/KyuLogo.PNG';
+import mspLogo from '../assets/education/KyuLogo.PNG';
 
 
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     profile, backend, frontend, nitj, gaminggeeks, soorme, youtube, soormeLogo, urlShortner, socialmedia, googleForms, portfolioGen, nitjLogo, asmLogo, mspLogo
 }

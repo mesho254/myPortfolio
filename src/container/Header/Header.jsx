@@ -11,10 +11,7 @@ const Header = () => {
               <div className="">
                 <div >
                 <h6 className="header__hello">Hello.  I'm</h6>
-                <h1 className="header__intro">Sahib Singh</h1>
-                <p className="header__list">
-                  <b className="tags">&lt;</b>He/Him <b className="tags">/&gt;</b>
-                </p>
+                <h1 className="header__intro">Meshack Otieno</h1>
                 </div>
               </div>
             </div>

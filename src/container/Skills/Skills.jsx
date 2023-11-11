@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Skills.scss'
 import Button from '@cred/neopop-web/lib/components/Button';
-import resume from '../../assets/resume/Resume - Sahib Singh.pdf'
+import resume from '../../assets/resume/Meshak_CV2.pdf'
 
 import skills from '../../data/skillsExperience'
 

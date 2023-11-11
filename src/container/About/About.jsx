@@ -1,5 +1,4 @@
 import React from 'react'
-import { images } from '../../constants'
 import './About.scss'
 
 import about from "../../data/about"
@@ -63,22 +62,11 @@ const About = () => {
               <div className="col-lg-6 col-12 py-3">
                 <div className="venture__item">
                   <div className="venture__item-logo">
-                    <img className="img-fluid" src={images.gaminggeeks} alt="Gaming Geeks" />
+                    <img className="img-fluid" src={'https://image.shutterstock.com/image-photo/image-260nw-1764554234.jpg'} alt="Leaning C#" />
                   </div>
                   <p></p>
                   <div className="venture__item-about">
-                    <span><a href="https://ggeeks.github.io" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i> ggeeks.github.io</a></span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12 py-3">
-                <div className="venture__item">
-                  <div className="venture__item-logo">
-                    <img className="img-fluid blur" src={images.soorme} alt="Soorme.com" />
-                  </div>
-                  <p></p>
-                  <div className="venture__item-about">
-                    <span><i className="fa-solid fa-code"></i> In development</span>
+                    <span><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i>Learning C#</a></span>
                   </div>
                 </div>
               </div>

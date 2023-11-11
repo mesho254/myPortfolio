@@ -21,9 +21,9 @@ const about = [
     },
     {
         key: 3,
-        img:"https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/nitj-svg.png?raw=true",
-        name: "NITian",
-        description: "I am a third year student of Information Technology at NIT Jalandhar.",
+        img:"https://www.kyu.ac.ke/images/kyu_logo2.png?raw=true",
+        name: "Kirinyaga University",
+        description: "I Currently Graduated with a Bachelors Degree in Computer Science, in October, 2023.",
         h1: "What I study:",
         h1Array: ['Information Technology'],
         h2: "Things I Do:",

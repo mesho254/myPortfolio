@@ -1,127 +1,88 @@
 const project = [
     {
         key: 1,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/projects/youtube.png?raw=true",
-        name: "YouTube Playlist Length",
-        description: "YouTube Playlist Length Calculator calculates the length of any YouTube playlist. It is capable of calculating length over a custom range as well. We just need to give the playlist link and custom range (optional) and we will get the playlist length.",
-        techStack: ['Node.js', 'Express.js', 'EJS', 'YouTube Data API', 'Heroku'],
+        img: "https://repelectric.net/wp-content/uploads/2018/01/rewinds_trans_dark-1-540x321.png",
+        name: "RewindersHub",
+        description: "This is a Website for rewinders to showcase their Skills and Knowledge. The users are Customers in need of motor repairs or seeking to buy/sell motor or other services like controls for motors or generators",
+        techStack: ['Node.js', 'Express.js', 'EJS', 'Material UI', 'Vercel'],
         complete: true,
-        liveDeploy: "https://yt-playlist-leng.herokuapp.com/",
-        sourceCode: "https://github.com/ssahibsingh/yt-playlist-length"
+        liveDeploy: "https://rewinders.vercel.app/",
+        sourceCode: "https://github.com/mesho254/Rewinders.git"
     },
     {
         key: 2,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/projects/url-shortner.png?raw=true",
-        name: "URL Shortener",
-        description: "A URL shortener capable of shortening every valid URL. URL validation is done with the help of 'Valid-URL' (NPM package) and URL alias string is generated with help of 'NanoId' (NPM Package). It can also generate URLs with custom aliases.",
-        techStack: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'EJS', 'Heroku'],
+        img: "https://i.pinimg.com/736x/2a/74/14/2a7414935e004b1ee29ae81dfed88a87.jpg",
+        name: "BlogTottie",
+        description: "The blog website application I created has a clean and modern user interface, which was designed using React.js components and styled using CSS. The website is fully responsive and can be accessed from any device, making it easy for users to read and interact with the blog posts.",
+        techStack: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'EJS', 'Vercel'],
         complete: true,
-        liveDeploy: "https://exn.herokuapp.com/",
-        sourceCode: "https://github.com/ssahibsingh/url-shortener"
+        liveDeploy: "https://blog-tottie.vercel.app/",
+        sourceCode: "https://github.com/mesho254/BlogTottie.git"
     },
     {
         key: 3,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/projects/social-media.png?raw=true",
-        name: "Social Media DBMS",
-        description: "A Social Media Database Management system flexible for any Frontend Interface Integration. This involves managing the data of multiple users, their followers, interests and public activity on the Social Media.",
-        techStack: ['MySQL'],
-        components: ['Schema', 'Database', 'ER Diagram', 'Sample Queries'],
+        img: "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
+        name: "Netflix Clone",
+        description: "This is a Netflix-Clone website with some of its original features implemented. I used Next.js framework to create the website, used tmdb API to fetch Netflix data, and YouTube trailers as videos.",
+        techStack: ['Next.js, TypeScript,Tailwind Css',],
         complete: true,
-        sourceCode: "https://github.com/ssahibsingh/Social-Media-Database-Project"
+        liveDeploy: "https://a-simple-netflix-clone.vercel.app/",
+        sourceCode: "https://github.com/mesho254/A-simple-Netflix-Clone.git"
     },
     {
         key: 4,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/projects/google-forms.png?raw=true",
-        name: "Google Form Automation",
-        description: "A Google Form Automation script capable of automating any Google Form having Short Answer Type, Long Answer Type, Multiple Choice and Checkbox Questions.",
-        techStack: ['Python', 'Selenium', 'Chrome Web Driver'],
+        img: "https://www.shutterstock.com/image-vector/playgroup-preschool-kindergarten-logo-template-260nw-352550573.jpg",
+        name: "School Dashboard",
+        description: "This School dashboard allows teachers to manage student details like fee payment and fee statement management. The admin adds teachers and the teachers are able to add, update and remove students based on their details. Includes search functionality for students and a good user Interface to view student details on a table.",
+        techStack: ['React.js', 'Node.js(express.js)', 'Material UI'],
         complete: true,
-        sourceCode: "https://github.com/ssahibsingh/GoogleFormsAutomation"
+        liveDeploy: "https://college-frontend.vercel.app/",
+        sourceCode: "https://github.com/mesho254/CollegeFrontend.git"
     },
     {
         key: 5,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/projects/soorme-logo.png?raw=true",
-        name: "Soorme.com",
-        description: "Soorme.com is an Online T-Shirt Store. T-Shirt Designs are based on Culture, History and Demography of Panjab.",
-        techStack: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Vercel', 'Heroku'],
-        complete: false,
+        img: "https://mma.prnewswire.com/media/1086356/Akima_Logo.jpg?p=facebook",
+        name: "Akima College",
+        description: "This is a full Campas Website which allow all the school functionalities. Created the backend application as Backend-as-a-Service which can be used by other frontend developers to fetch or manipulate data for their school frontend websites",
+        techStack: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Vercel', 'Material UI'],
+        complete: true,
+        liveDeploy: "https://akima-secondary-website.vercel.app/",
+        sourceCode: "https://github.com/mesho254/Akima-Secondary-Website.git"
     },
-    {
-        key: 6,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/projects/portfolio.png?raw=true",
-        name: "Portfolio Generator",
-        description: "It Generates Portfolio Website, for which user have to enter their details and they will get their Portfolio Website. User have choice to choose a portfolio website from the sample websites listed",
-        techStack: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Vercel', 'Heroku'],
-        complete: false,
-    }
 ]
 
 const otherProjects = [
     {
         key: 1,
-        link: "https://github.com/ggeeks/ggeeks.github.io",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=ggeeks.github.io&show_owner=true&border_color=fafafa&bg_color=fafafa&border_radius=10"
+        link: "https://github.com/mesho254/face_detection.git",
+        img: "https://img.freepik.com/premium-vector/face-detection-concept-2-colored-icon-simple-blue-element-illustration-face-detection-concept-symbol-design-can-be-used-web-mobile-ui-ux_159242-4637.jpg"
     },
     {
         key: 8,
-        link: "https://github.com/ssahibsingh/blog-website-pub",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=blog-website-pub&bg_color=fafafa&border_color=fafafa&border_radius=10"
+        link: "https://github.com/mesho254/Chat-bot.git",
+        img: "https://cdn.dribbble.com/userupload/7365296/file/original-680788798299aa33b3c60cba9f6a4cc9.jpg"
     },
     {
         key: 9,
-        link: "https://github.com/ssahibsingh/qrcode-generator",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=qrcode-generator&bg_color=fafafa&border_color=fafafa&border_radius=10"
+        link: "https://github.com/mesho254/Comment-section.git",
+        img: "https://cdn2.vectorstock.com/i/1000x1000/31/66/comments-icon-sign-vector-21123166.jpg"
     },
     {
         key: 10,
-        link: "https://github.com/ggeeks/event-ggeeks",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=event-ggeeks&show_owner=true&border_color=fafafa&bg_color=fafafa&border_radius=10"
+        link: "https://github.com/mesho254/Rating-app.git",
+        img: "https://cdn1.vectorstock.com/i/1000x1000/12/90/app-rating-color-icon-vector-29051290.jpg"
     },
     {
         key: 11,
-        link: "https://github.com/ssahibsingh/Project-GamingGeeks",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-GamingGeeks&bg_color=fafafa&border_color=fafafa&border_radius=10"
+        link: "https://github.com/mesho254/todo.git",
+        img: "https://cdn.worldvectorlogo.com/logos/todo-1.svg"
     },
     {
         key: 12,
-        link: "https://github.com/ssahibsingh/Project-TiwanaPowerSol",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-TiwanaPowerSol&bg_color=fafafa&border_color=fafafa&border_radius=10"
+        link: "https://github.com/mesho254/My-music-app.git",
+        img: "https://cdn.jim-nielsen.com/ios/512/apple-music-2020-09-25.png"
     },
-    {
-        key: 13,
-        link: "https://github.com/ssahibsingh/todolist-pub",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=todolist-pub&bg_color=fafafa&border_color=fafafa&border_radius=10"
-    },
-    {
-        key: 14,
-        link: "https://github.com/ssahibsingh/newsletter-signup-pub",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=newsletter-signup-pub&bg_color=fafafa&border_color=fafafa&border_radius=10"
-    },
-    {
-        key: 15,
-        link: "https://github.com/ssahibsingh/TossTheDice",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=TossTheDice&bg_color=fafafa&border_color=fafafa&border_radius=10"
-    },
-    {
-        key: 16,
-        link: "https://github.com/ssahibsingh/simongame",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=simongame&bg_color=fafafa&border_color=fafafa&border_radius=10"
-    },
-    {
-        key: 17,
-        link: "https://github.com/ssahibsingh/drumkit",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=drumkit&bg_color=fafafa&border_color=fafafa&border_radius=10"
-    },
-    {
-        key: 18,
-        link: "https://github.com/ssahibsingh/flipkartclone",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=flipkartclone&bg_color=fafafa&border_color=fafafa&border_radius=10"
-    },
-    {
-        key: 19,
-        link: "https://github.com/ssahibsingh/chaining-the-EVMs",
-        img: "https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=chaining-the-EVMs&bg_color=fafafa&border_color=fafafa&border_radius=10"
-    },
+   
 ]
 
 const data = { project, otherProjects }

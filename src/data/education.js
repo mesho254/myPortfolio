@@ -1,28 +1,14 @@
+
+
 const education = [
     {
         key: 1,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/education/nitj.png?raw=true",
-        name: "Dr. B R Ambedkar National Institute of Technology Jalandhar",
-        duration: "2020 - Present",
+        img: "https://www.kyu.ac.ke/images/kyu_logo2.png",
+        name: "Kirinyaga University",
+        duration: "2019 - 2023",
         education: "Information Technology",
-        degree: "Bachelor of Technology",
+        degree: "Bachelor of Science in Computer Science",
     },
-    {
-        key: 2,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/education/msp.png?raw=true",
-        name: "Modern Secular Public School, Dhuri",
-        duration: "2018 - 2020",
-        education: "Senior Secondary Education",
-        degree: "Issued by Central Board of Secondary Education (CBSE)",
-    },
-    {
-        key: 3,
-        img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/education/asm.png?raw=true",
-        name: "AS Modern Sr. Sec. School, Khanna",
-        duration: "2010 - 2018",
-        education: "High School Education",
-        degree: "Issued by Central Board of Secondary Education (CBSE)",
-    }
 ]
 
 
