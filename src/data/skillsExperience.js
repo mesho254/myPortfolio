@@ -23,12 +23,30 @@ const skill = [
 const experience = [
     {
         key: 1,
+        duration: "Feb 2025 - Present",
+        position: "Senior Software Developer - Part-time",
+        company: "MedicinaChain"
+    },
+    {
+        key: 2,
+        duration: "Apr 2024 - Jan 2025",
+        position: "Software Developer - Part-time",
+        company: "MedicinaChain"
+    },
+    {
+        key: 3,
+        duration: "Sep 2024 - Dec 2024",
+        position: "Software Developer - Full-time",
+        company: "TuzaPay"
+    },
+    {
+        key: 4,
         duration: "May 2023 - Jul 2023",
         position: "Software Engineer - Internship",
         company: "IBM Research Africa"
     },
     {
-        key:2,
+        key: 5,
         duration: "Jul 2022 - Oct 2022",
         position: "Full Stack Developer",
         company: "Rhions Lab Limited"

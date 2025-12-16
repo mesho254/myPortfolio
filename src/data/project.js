@@ -49,6 +49,16 @@ const project = [
         liveDeploy: "https://akima-secondary-website.vercel.app/",
         sourceCode: "https://github.com/mesho254/Akima-Secondary-Website.git"
     },
+    {
+        key: 6,
+        img: "https://mma.prnewswire.com/media/1086356/Akima_Logo.jpg?p=facebook",
+        name: "BlogSum",
+        description: "The blog website application I created has a clean and modern user interface, which was designed using React.js components and styled using CSS. The website is fully responsive and can be accessed from any device, making it easy for users to read and interact with the blog posts.",
+        techStack: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Vercel', 'Material UI'],
+        complete: true,
+        liveDeploy: "https://blog-sum.vercel.app/",
+        sourceCode: "https://github.com/mesho254/BlogSum.git"
+    },
 ]
 
 const otherProjects = [
